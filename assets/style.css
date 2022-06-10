@@ -39,10 +39,28 @@ a:link
 
 }
 
+.main {
+    width:75%;
+    display: inline-block;
+    justify-items: left;
+}
+
+ 
+
 #ILoveTacos {
     min-height: 500px;
     width: 100%;
     background-image: url("./ILoveTacos.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#1stWebPage {
+    min-height: 100px;
+    width:25%;
+    background-image: url("assets/1stWebPage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: left;
+    padding-left: 0%;
 }
