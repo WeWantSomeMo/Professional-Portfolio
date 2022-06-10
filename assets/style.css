@@ -6,29 +6,43 @@
     color: crimson;
 }
 .header {
-    text-align: center;
-    font-size: 65px;
+  margin-left: 25px;  
+    
 }
 .body h1 {
     display: right;
-    font-size: 80px;
+    font-size: 50px;
     float: none;
-    background-color: black;
-    color:crimson
+    color:crimson;
+    padding: 25px;
+    text-align: left;
 }
 .header nav ul {
-    display: inline-flex;
-    padding-top: 25px;
+    display: flex;
+    list-style: none;
+    padding: 15px;
     font-size: 25px;
+    width: fit-content;
+    float: right;
 }
-.header nav ul
-
+.header nav ul li {
+    margin-left: 15px;
+    cursor: pointer;
+    
+}
+a:link
+{
+    text-decoration: none;
+}
 .hero {
-    height: 1000px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("ILoveTacos.jpeg");
-    background-size: contain;
-    background-position: center;
+    margin-bottom: 15px;
 
+}
+
+#ILoveTacos {
+    min-height: 500px;
+    width: 100%;
+    background-image: url("./ILoveTacos.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
