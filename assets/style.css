@@ -6,7 +6,8 @@
     color: crimson;
 }
 .header {
-  margin-left: 25px;  
+  margin-left: 25px;
+  font-size: 45px;
     
 }
 .body h1 {
@@ -28,7 +29,21 @@
 .header nav ul li {
     margin-left: 15px;
     cursor: pointer;
-    
+}
+#Services ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 25px;
+}
+#Services {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 25px;
 }
 a:link
 {
@@ -38,14 +53,6 @@ a:link
     margin-bottom: 15px;
 
 }
-
-.main {
-    width:75%;
-    display: inline-block;
-    justify-items: left;
-}
-
- 
 
 #ILoveTacos {
     min-height: 500px;
@@ -58,9 +65,17 @@ a:link
 #1stWebPage {
     min-height: 100px;
     width:25%;
-    background-image: url("assets/1stWebPage.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: left;
-    padding-left: 0%;
+    text-align: center;
+    padding-left: 45px;
+}
+#1stWebPagePic {
+    padding-left: 15px;
+}
+#Green-Nature {
+    text-align: center;
+}
+#Green-Nature-Pic {
+    min-height: 100px;
+    width:85%;
+
 }
