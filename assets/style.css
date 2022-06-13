@@ -62,13 +62,13 @@ a:link
     background-size: cover;
 }
 
-#1stWebPage {
+#FirstWebPage {
     min-height: 100px;
     width:25%;
     text-align: center;
     padding-left: 45px;
 }
-#1stWebPagePic {
+#FirstWebPagePic {
     padding-left: 15px;
 }
 #Green-Nature {
@@ -76,6 +76,30 @@ a:link
 }
 #Green-Nature-Pic {
     min-height: 100px;
-    width:85%;
+    width: 300%;
+    text-align: center;
+    padding-left: 15px;
 
+}
+
+p {
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 30px;
+    margin-left: inline-block;
+    float: right;
+    display: inline-flex;
+}
+
+#Skull-Face {
+    min-height: 100px;
+    width: 170%;
+    text-align: center;
+    padding: 15px;
+}
+#ShowEm {
+    min-height: 100px;
+    width: 170%;
+    text-align: center;
+    padding: 15px;
 }
